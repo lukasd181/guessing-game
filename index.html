@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Tokyo-Drinking Game</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="container gaming-area d-flex">
+        <h1>Number Guessing Game</h1>
+        <p id="guess-remain"></p>
+        <p id="update-status"></p>
+        <p id="round-result"></p>
+        <input type="number" id="user-input" />
+        <button id="guess-but" onclick="numberGuessingGame()">Guess</button>
+        <button id="reset-but" onclick="resetButton()">Reset</button>
+        <h2>History</h2>
+        <p id="history"></p>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>

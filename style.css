@@ -1,0 +1,13 @@
+.main-section{
+    display: flex;
+    align-content: center;
+}
+.gaming-area {
+    display: flex;
+    border: red solid 1px;
+    flex-direction: column;
+}
+
+#guess-but {
+    margin: 200px 200px;
+}
